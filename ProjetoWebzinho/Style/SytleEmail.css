@@ -1,0 +1,73 @@
+#cabecalho {
+    background: rgb(38, 108, 165);
+    height: 40px;
+}
+
+#cabecalho input{
+    padding: 05px;
+    margin-top: 05px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: solid 2px rgba(14, 52, 88, 0.548);
+    
+    
+}
+
+#cabecalho2 {
+    background: rgb(9, 236, 168);
+    height: 30px;
+        
+}
+#o{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+
+#opcoes table{
+    width: 150px;
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    height: 130px;
+        
+}
+
+#opcoes table tr td{
+    border:solid 2px rgba(14, 52, 88, 0.548);
+    border-radius: 7px; 
+}
+.body div {
+    display: inline-flex;
+}
+
+#email table{
+    
+    float: right;
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    height: 130px;
+    width: 1100px;;
+    float: right;
+   
+        
+}
+#email table tr td{
+    border:solid 2px rgba(14, 52, 88, 0.548);
+    border-radius: 7px; 
+    
+    
+}
+    
+
+
+
+
+
+
+
+
+
+

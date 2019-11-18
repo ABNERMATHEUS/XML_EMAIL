@@ -17,10 +17,7 @@ while ( $arquivoXml = $diretorio->read()){
                 //abrir o xml  e Fazer varios desses para cada tag colocando em cada matriz
                 $ok[$cont]['email']=$xmlObjeto;
                 $cont++;
-                //$ok[$cont]['assunto']= $xmlObjeto->assunto;
-                //$ok[$cont]['texto']=$xmlObjeto->texto;
-                
-
+           
        
 
           }

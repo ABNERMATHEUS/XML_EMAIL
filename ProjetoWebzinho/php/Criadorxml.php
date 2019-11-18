@@ -20,7 +20,7 @@ $xml_raiz->appendChild($xml_texto);
 $xml->appendChild($xml_raiz);
 
 $data = date("Y_m_d_h_i_s");
-$local = ("../xml/"."/xmlSaida//".$data."(".$assunto.")".".xml");  ///TENTAR VER UM HASH PARA CADA EMAIL SALVAR
+$local = ("../xml/"."/xmlSaida//".$data."(".$desti.")".".xml");  ///TENTAR VER UM HASH PARA CADA EMAIL SALVAR
 
 
 $xml->save($local);

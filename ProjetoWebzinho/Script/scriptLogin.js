@@ -4,7 +4,7 @@ $(document).ready(function(){
 
    fLocalEventClick();
    $("#button1").click(function(){
-        window.href="Cadastrar.Html";
+        window.location.href="Paginas/Cadastrar.Html";
    });
 
 

@@ -1,3 +1,11 @@
+body{
+    background: rgb(9, 236, 168);
+}
+
+
+
+
+
 #cabecalho {
     background: rgb(38, 108, 165);
     height: 40px;
@@ -27,7 +35,7 @@
 
 #opcoes table{
     width: 150px;
-    background: white;
+    background: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:black;
     height: 130px;
@@ -37,6 +45,7 @@
 #opcoes table tr td{
     border:solid 2px rgba(14, 52, 88, 0.548);
     border-radius: 7px; 
+    background: white;
 }
 .body div {
     display: inline-flex;
@@ -45,7 +54,7 @@
 #email table{
     
     float: right;
-    background: white;
+    background: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:black;
     height: 130px;
@@ -57,7 +66,21 @@
 #email table tr td{
     border:solid 2px rgba(14, 52, 88, 0.548);
     border-radius: 7px; 
+    background: white;
     
+    
+}
+
+#novaMensagem{
+    
+        
+        width: 200px;
+        
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        color: white;
+        background: #266ca5;
     
 }
     

@@ -31,7 +31,7 @@ function EnviarXML(){
                 
                 
                 $("#status").html(retorno);
-                window.location.href="EnviadosEmail.html";
+                window.location.href="EntradaEmail.html";
 
                 
 

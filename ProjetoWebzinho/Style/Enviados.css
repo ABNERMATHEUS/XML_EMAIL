@@ -44,6 +44,7 @@
 #textoEmail input{
     height: 70px;
     width: 500px;
+    border-radius: 20px;
 }
 #textoEmail button{
     margin-left: 220px;
@@ -61,5 +62,25 @@
     margin-left: 170px;
 
 }
+
+#div1 input{
+    border-radius: 50px;
+   
+}
+#div2 input{
+    border-radius: 50px;
+   
+}
+
+#div1 {
+    margin-left: 91px;
+   
+}
+#div2 {
+    margin-left: 91px;
+   
+}
+
+
 
 

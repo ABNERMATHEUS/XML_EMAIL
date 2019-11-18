@@ -9,9 +9,6 @@ $(document).ready(function(){
 
 
 });
-    
-
-
 function fLocalEventClick(){
 
         $("#button").click(function(){
@@ -21,36 +18,25 @@ function fLocalEventClick(){
                 type:"POST",
                 url:"php/autenticacao.php",
                 dataType: "json",
-                data:{
-                    login: $("#Login").val(),
+                data:{login: $("#Login").val(),
                     senha: $("#Password").val()
+                    
                 },
                 success: function(retorno){
-                    if (retorno.mensagem == 'autenticado'){
-                        window.location.href="Paginas/EntradaEmail.html"
-
-                    }
-                    else{
-                        $("#erro").html(retorno.mensagem);
-                    }
-                    
+                   console.log("Logado");
+                    window.location.href="Paginas/EntradaEmail.Html";
+                },
+                error: function() {
+                  $("#erro").html("Login ou Senha Inválida")
                 }
-
-
-                
-
-
-            });
-
-
-
-
-
+                  
         });
 
+    })
 
+}
 
-    }
+    
 
 
 

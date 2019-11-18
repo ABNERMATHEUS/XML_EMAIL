@@ -4,47 +4,12 @@ $(document).ready(function(){
 
    fLocalEventClick();
    $("#button1").click(function(){
-        window.href
+        window.href="Cadastrar.Html";
    });
 
 
 });
     
-
-/*function login(){
-    
-
-    var login = $("#Login").val();
-    var password = $("#Password").val();
-    
-    for ( var i =0; i<banco.length ; i++){
-        if (banco[i].login == login && banco[i].password == password)   {
-
-            
-            window.location.href ="Paginas/Cadastrar.Html"; 
-
-            
-         
-        } 
-
-        else{
-            var html = "Senha ou Usuario incorreto.";
-            $("#erro").html(html);
-            $(".input2").addClass("error")
-        }
-    }
-
-
-
-}
-
-function Cadastro(login,senha){
-    this.naame= login;
-    this.seenha=senha;
-    
-
-    }*/
-
 
 
 function fLocalEventClick(){

@@ -1,6 +1,4 @@
 
-var nome;
-var senha;
 
 
 
@@ -15,27 +13,34 @@ $(document).ready(function(){
 
 function Cadastrar(){
 
-nome = $("#login").val();
+
 
 if ($("#senha").val() == $("#input").val()){
+    
+    nome = $("#login").val();
     senha= $("#senha").val();
-    alert("Ok");
-    x = new Cadastro(nome,senha);
-    window.location.href = "../Login.Html";
-
-    
-    
-    
-    
-
 }
 else{
     var html="<h1> Verifique se a senha está correta </h1>";
-    $("#erro").html(html);
-    
+    $("#erro").html(html);    
 }
+    $.ajax({
 
+        type:"POST",
+        url:"../php/CriadorCadastro.php",
+        dataType: "json",
+        data:{
+            login: nome,
+            senha: senha
+            
+        },
+        success: function(){
+          
+            window.location.href="../Index.html";
+        }
+    
+    
 
-
+});
 }
 

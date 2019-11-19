@@ -22,12 +22,6 @@ while ( $arquivoXml = $diretorio->read()){
                  }
                 
         
-                 
-                 
-                 
-
-                
-                
            
                  }
         

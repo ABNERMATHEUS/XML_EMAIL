@@ -32,20 +32,6 @@ echo false;
 
 
 
-  /*if ($login == $login1  && $senha == $senha1){
-    $retorno["Status"]= "sucesso";
-    $retorno["mensagem"]="autenticado";
-    
-
-  }
-
-  else{
-
-    $retorno["Status"]= "Fail";
-    $retorno["mensagem"]= "Login ou senha Incorreto";
-  }*/
-
-  // echo $retorno_json = json_encode($ok);
-
+  
 
 ?>

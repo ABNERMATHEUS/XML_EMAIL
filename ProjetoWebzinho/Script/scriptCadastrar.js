@@ -21,7 +21,7 @@ if ($("#senha").val() == $("#input").val()){
     senha= $("#senha").val();
 }
 else{
-    var html="<h1> Verifique se a senha está correta </h1>";
+    var html="Verifique se a senha está correta";
     $("#erro").html(html);    
 }
     $.ajax({

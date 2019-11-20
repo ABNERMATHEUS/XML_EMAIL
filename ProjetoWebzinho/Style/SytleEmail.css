@@ -1,5 +1,5 @@
 body{
-    background: rgb(9, 236, 168);
+    background: rgb(159, 191, 201);
 }
 
 
@@ -7,7 +7,7 @@ body{
 
 
 #cabecalho {
-    background: rgb(38, 108, 165);
+    background: rgb(5, 56, 97);
     height: 40px;
 }
 
@@ -22,7 +22,7 @@ body{
 }
 
 #cabecalho2 {
-    background: rgb(9, 236, 168);
+    background: rgb(178, 235, 218);
     height: 30px;
         
 }
@@ -83,7 +83,24 @@ body{
         background: #266ca5;
     
 }
+
+#opcoes a{
+    text-decoration-line: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color:rgb(5, 56, 97);
     
+    
+}
+#opcoes div{
+    
+    width: 100px;
+}
+
+#imgIcon{
+    width: 45px;
+    height: 45px;
+}
 
 
 

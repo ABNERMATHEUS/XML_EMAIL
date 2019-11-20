@@ -35,7 +35,7 @@ else{
             
         },
         success: function(){
-          
+                      
             window.location.href="../Index.html";
         }
     
